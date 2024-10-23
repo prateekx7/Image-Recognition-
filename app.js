@@ -40,7 +40,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 
 app.get('/', (req, res) => {
-    res.render('index', { error: null, labels: [] });
+    res.render('index', { error: null, labels: [],imageUrl:null });
 });
 
 app.post('/upload', (req, res) => {
@@ -80,4 +80,6 @@ app.post('/upload', (req, res) => {
     });
 });
 
-app.listen(3000);
+app.listen(port, () => {
+    console.log( port);
+});
