@@ -81,5 +81,5 @@ app.post('/upload', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log( port);
+    console.log(port);
 });
