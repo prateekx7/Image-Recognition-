@@ -4,3 +4,4 @@ For running :
 -> **create** your **.env** file.
 -> In the **.env** file add the **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** .
 -> lastly run the project using **node app.js** in the parent directory.
+ 
